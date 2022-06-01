@@ -192,3 +192,29 @@
   font-size: 1.1rem;
   text-align: center;
 }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form label {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form input {
+  width: 85%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.textarea {
+  resize: none;
+  width: 85%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
